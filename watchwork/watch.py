@@ -6,31 +6,41 @@ import shutil
 from datetime import datetime
 
 timeArr = []
-currtime = datetime.now().strftime('%H:%M:%S')
+startTime = datetime.now().strftime('%H:%M:%S')
+startTimeDT = datetime.now()
 
 print('where do you want to watch? specify full path')
 wlocation = input('watch here: ')
-print('watching ' + wlocation+ '...' + ' at current time: ' + currtime)
+
+# for testing 
+if(wlocation == 'this'):
+	wlocation = os.getcwd();
+
+
+print('watching ' + wlocation+ '...' + ' at current time: ' + startTime)
+
+filename = 'timewatch' + str(datetime.now().date()) + '.txt'
+file = open( filename, 'w+')
+print('print to ' + filename)
 
 
 def nowTime():
-	currtime = datetime.now().strftime('%H:%M:%S')
-	filename = 'timewatch' + str(datetime.now().date()) + '.txt'
-	file = open( filename, 'w+')
-	print('print to ' + filename)
+	endTime = datetime.now().strftime('%H:%M:%S')
+	endTimeDT = datetime.now()
 	
 	if(len(timeArr) < 2):
-		timeArr.append(currtime)
-		file.write('start time: ' + currtime)
+		timeArr.append(startTime)
+		file.write('start time: ' + startTime)
 		print(timeArr)
 	else:
-		timeArr[1] = currtime
-		print(timeArr)
-		timetaken = int(timeArr[1][:2]) - int(timeArr[0][:2])
+		timeArr[1] = endTime
+		# timetaken = timeArr[1][:2] - timeArr[0][:2]
+		timetaken = endTimeDT - startTimeDT
 		timeform = 'started at: ' + timeArr[0] + '\n' + 'ended at: ' + timeArr[1] + '\n' + 'watching here ' + wlocation + '\n total time taken: ' + str(timetaken)
+		print(timeArr);
 		file.write(timeform)
 
-nowTime()	
+		print(timeform)
 
 if __name__ == "__main__":
 	patterns = "*"
@@ -58,16 +68,12 @@ def on_modified(event):
 	# insert functions here to run at this event
 	nowTime()	
 
-def on_open(even):
-	print(f"{event.src_path} is opened")
-	# insert functions here to run at this event
-	nowTime()	
+
 
 
 my_event_handler.on_created = on_created
 my_event_handler.on_deleted = on_deleted
 my_event_handler.on_modified = on_modified
-my_event_handler.on_open = on_open
 
 path = wlocation
 go_recursively = True
@@ -82,5 +88,6 @@ try:
          
 except KeyboardInterrupt:
    		my_observer.stop()
+   		nowTime()
    			
 my_observer.join()

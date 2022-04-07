@@ -1,4 +1,13 @@
-started at: 16:40:30
-ended at: 16:42:23
-watching here C:\Users\kiats\Desktop\corsivalab\csengineeringedgeadminpanel
- total time taken: 0
+start time: 17:42:30start time: 17:42:30started at: 17:42:30
+ended at: 17:42:41
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0:00:11.285462started at: 17:42:30
+ended at: 17:42:41
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0:00:11.292501started at: 17:42:30
+ended at: 17:42:41
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0:00:11.294747started at: 17:42:30
+ended at: 17:43:03
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0:00:32.924266

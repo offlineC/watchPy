@@ -1,0 +1,40 @@
+start time: 17:21:39start time: 17:21:39started at: 17:21:39
+ended at: 17:21:50
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:21:50
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:22:03
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:22:03
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:32:42
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:32:42
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:05
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:05
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:06
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:06
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:10
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:10
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0started at: 17:21:39
+ended at: 17:33:13
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0
