@@ -89,5 +89,6 @@ try:
 except KeyboardInterrupt:
    		my_observer.stop()
    		nowTime()
+   		file.close()
    			
 my_observer.join()

@@ -38,3 +38,8 @@ watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
 ended at: 17:33:13
 watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
  total time taken: 0
+
+ start time: 17:53:07start time: 17:53:07started at: 17:53:07
+ended at: 17:53:11
+watching here C:\Users\kiats\Desktop\rochale\watch-project\watchwork
+ total time taken: 0:00:04.304597
